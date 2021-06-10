@@ -13,8 +13,20 @@
     </div>
 
 <div class="form">
+  <form action="javascript:void(0);" method="POST" onsubmit="app.Add()"> 
     <input type="text" id="add-todo" placeholder="할 일을 입력해주세요.">
     <input type="submit" value="Add" class="btn btn-outline-primary">
+    </form>
+    <p>총 추가된 갯수: </p>
+    <p id="counter"></p>
+
+    <table>
+    <tr class="to-do">
+        <th><h3>[ 할 것 목록 ]</h3></th>
+    </tr>
+        <tbody id="tasks">
+        </tbody>
+    </table>
 </div>
 
 <div id="edit-box" role="aria-hidden">
@@ -23,5 +35,6 @@
   </form>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>
