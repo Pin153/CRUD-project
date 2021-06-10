@@ -46,7 +46,7 @@ var app = new function() {
     document.getElementById('edit-box').style.display = 'block';
     self = this;
 
-document.getElementById('save-edit').onsubmit = function() {
+{ //plz help me
       // 값을 받기
       var task = el.value;
 
