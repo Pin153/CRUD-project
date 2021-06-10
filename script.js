@@ -68,6 +68,8 @@ var app = new function() {
     this.FetchAll();
   };
  // bug fix 이후 사태
+  }
+
   this.Count = function(data) {
     var el   = document.getElementById('counter');
     var name = '개의 목록이 있습니다.';
