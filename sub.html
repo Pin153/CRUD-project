@@ -111,6 +111,29 @@
             <span class="recipe">골드 럼 45ml + 라임 주스 1/2개 + 설탕 1스푼 + 민트 잎 4장</span>
           </div>
         </div>
+
+    
+        <script>
+          function filter() {
+            let search = document.getElementById("search").value.toLowerCase(); 
+            let listInner = document.getElementsByClassName("listInner");
+    
+            for (let i = 0; i < listInner.length; i++) {
+              recipe = listInner[i].getElementsByClassName("recipe");
+              cocktail = listInner[i].getElementsByClassName("cocktail");
+              if (recipe[0].innerHTML.toLowerCase().indexOf(search) != -1 ||
+                cocktail[0].innerHTML.toLowerCase().indexOf(search) != -1
+              ) {
+                listInner[i].style.display = "flex"
+              } else {
+                listInner[i].style.display = "none"
+              }
+            }
+          }
+    
+        </script>
+      </body>
+
           
         <script>
             function filter() {
@@ -133,5 +156,6 @@
         </script>
           
     </body>
+
     
     </html>
