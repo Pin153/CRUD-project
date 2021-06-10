@@ -1,0 +1,47 @@
+[33mcommit 9c7f372f818f7c19147486319f493a49c4544104[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: J-jia <dlswns131181@gmail.com>
+Date:   Fri Jun 11 02:07:37 2021 +0900
+
+    how to add?
+
+[33mcommit d4d2afb08f889953775a489cc96a3677e8be5d37[m
+Merge: 1c71108 f3d6b96
+Author: 재근 <80444283+Pin153@users.noreply.github.com>
+Date:   Fri Jun 11 00:17:53 2021 +0900
+
+    Merge pull request #2 from Pin153/featrue/add
+    
+    add todo
+
+[33mcommit f3d6b96961cc9b05bcaa0b752879c1598a5ac8b8[m
+Author: Pin153 <permin_@naver.com>
+Date:   Fri Jun 11 00:16:50 2021 +0900
+
+    add todo
+
+[33mcommit 1c71108aa37d1cf3c03d558db1c46185ea8581ad[m
+Merge: 8de357f 50a3733
+Author: 재근 <80444283+Pin153@users.noreply.github.com>
+Date:   Fri Jun 11 00:08:15 2021 +0900
+
+    Merge pull request #1 from J-jia/main
+    
+    farist add css
+
+[33mcommit 50a373389d521eddcfb49b3f2e45abb7ed0a4cc6[m
+Author: J-jia <dlswns131181@gmail.com>
+Date:   Fri Jun 11 00:05:00 2021 +0900
+
+    farist add css
+
+[33mcommit 8de357f305e9f6aad0c118cb70ab27d0bc39fd60[m
+Author: Pin153 <permin_@naver.com>
+Date:   Thu Jun 10 23:52:48 2021 +0900
+
+    add readme
+
+[33mcommit 541ba9a5a085f4b3f1e2b2749a325d7b843c8aa7[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Pin153 <permin_@naver.com>
+Date:   Thu Jun 10 23:48:16 2021 +0900
+
+    add index.html
