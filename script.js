@@ -46,7 +46,7 @@ var app = new function() {
     document.getElementById('edit-box').style.display = 'block';
     self = this;
 
-{ //plz help me
+    document.getElementById('save-edit').onsubmit = function() {
       // 값을 받기
       var task = el.value;
 
@@ -60,6 +60,10 @@ var app = new function() {
       }
     }
   };
+
+  this.Delete = function (item) {
+    // 현재 행 삭제
+  }
 
   this.Count = function(data) {
     var el   = document.getElementById('counter');
