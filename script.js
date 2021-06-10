@@ -63,6 +63,11 @@ var app = new function() {
 
   this.Delete = function (item) {
     // 현재 행 삭제
+    this.tasks.splice(item, 1);
+    // 디스플레이 새로운 리스트
+    this.FetchAll();
+  };
+ // bug fix 이후 사태
   }
 
   this.Count = function(data) {
