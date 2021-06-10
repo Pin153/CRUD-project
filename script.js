@@ -46,7 +46,7 @@ var app = new function() {
     document.getElementById('edit-box').style.display = 'block';
     self = this;
 
-document.getElementById('save-edit').onsubmit = function() {
+    document.getElementById('save-edit').onsubmit = function() {
       // 값을 받기
       var task = el.value;
 
@@ -60,16 +60,14 @@ document.getElementById('save-edit').onsubmit = function() {
       }
     }
   };
-  
-this.Delete = function (item) {
+
+  this.Delete = function (item) {
     // 현재 행 삭제
     this.tasks.splice(item, 1);
     // 디스플레이 새로운 리스트
     this.FetchAll();
-  
-};
-  
-  
+  };
+ // 버그 픽스 
   this.Count = function(data) {
     var el   = document.getElementById('counter');
     var name = '개의 목록이 있습니다.';
