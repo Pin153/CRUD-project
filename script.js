@@ -66,6 +66,7 @@ this.Delete = function (item) {
     this.tasks.splice(item, 1);
     // 디스플레이 새로운 리스트
     this.FetchAll();
+  
 };
   
   
