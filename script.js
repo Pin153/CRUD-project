@@ -85,7 +85,7 @@ var app = new function() {
     }
   };
   
-}
+
 
 app.FetchAll();
 
