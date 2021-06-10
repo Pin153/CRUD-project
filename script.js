@@ -67,7 +67,7 @@ var app = new function() {
     // 디스플레이 새로운 리스트
     this.FetchAll();
   };
- // 버그 픽스 
+ // bug fix 이후 사태
   this.Count = function(data) {
     var el   = document.getElementById('counter');
     var name = '개의 목록이 있습니다.';
